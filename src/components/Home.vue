@@ -1,0 +1,56 @@
+<template id="">
+  <div class="">
+    <div class="row the-row">
+      <div class="col m3 l3 personal-nav z-depth-1">
+        <h4><router-link class="white-text" :to="{ name: 'Home' }">Alex Prascak</router-link></h4>
+        <div class="divider nav-divider"></div>
+        <ul class="white-text">
+          <li><router-link class="white-text" :to="{ name: 'About' }">About</router-link></li>
+          <li><router-link class="white-text" :to="{ name: 'Projects' }">Personal Projects</router-link></li>
+          <li><router-link class="white-text" :to="{ name: 'Education'}">Education</router-link></li>
+        </ul>
+      </div>
+      <div class="col m9 l9">
+        <h3>About</h3>
+        <div class="divider about-divider"></div>
+
+      </div>
+    </div>
+  </div>
+</template>
+
+<script type="text/javascript">
+  export default {
+    name: 'Home',
+    data() {
+      return {
+
+      }
+    }
+  }
+</script>
+
+<style scoped>
+  .the-row {
+    height: 100vh;
+  }
+  .personal-nav {
+    height: 100%;
+    background-color: #804949;
+  }
+  h4 {
+    padding-top: 10%;
+    padding-bottom: 3%;
+  }
+  ul {
+    padding-top: 3%;
+    color: #2c3e50;
+  }
+  li {
+    padding-top: 3%;
+  }
+  .nav-divider {
+    background-color: #0a1321;
+    height: 2px;
+  }
+</style>
