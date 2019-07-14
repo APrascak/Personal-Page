@@ -8,6 +8,7 @@
           <li><router-link class="white-text" :to="{ name: 'About' }">About</router-link></li>
           <li><router-link class="white-text" :to="{ name: 'Projects' }">Personal Projects</router-link></li>
           <li><router-link class="white-text" :to="{ name: 'Education'}">Education</router-link></li>
+          <li><router-link class="white-text" :to="{ name: 'About'}">Contact Me</router-link></li>
         </ul>
       </div>
       <div class="col m9 l9">
