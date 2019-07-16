@@ -1,4 +1,4 @@
-<template id="">
+<template>
   <div class="">
     <div class="row the-row">
       <div class="col m3 l3 personal-nav z-depth-1">
@@ -11,13 +11,13 @@
           <li><router-link class="white-text" :to="{ name: 'Contact'}">Contact Me</router-link></li>
         </ul>
       </div>
-      <div class="col m9 l9 center">
-        <div class="">
-          <h2 class="black-text first"><router-link class="black-text first" :to="{ name: 'About' }">About Me</router-link></h2>
-          <h2 class="even-header"><router-link class="even-header" :to="{ name: 'Projects' }">Personal Projects</router-link></h2>
-          <h2 class="black-text"><router-link class="black-text" :to="{ name: 'Education' }">Education</router-link></h2>
-          <h2 class="even-header"><router-link class="even-header" :to="{ name: 'Contact' }">Contact Me</router-link></h2>
-        </div>
+      <div class="col m9 l9">
+        <h3>Contact Me:</h3>
+        <div class="divider title-divider"></div>
+        <p>Email: aprascak@ufl.edu</p>
+        <p>Phone: (219) 575-8105</p>
+        <p>Connect with me on Linkedin</p>
+        <a href="https://github.com/APrascak"><i class="fab fa-twitter the-icons" style="font-size:24px"></i></a>
       </div>
     </div>
   </div>
@@ -25,7 +25,7 @@
 
 <script type="text/javascript">
   export default {
-    name: 'Home',
+    name: 'Contact',
     data() {
       return {
 
@@ -61,39 +61,11 @@
     height: 100vh;
     text-align: center;
   }
-  .tleft {
-    height: 25vh;
-    margin: 20vh 0vh 5vh 0vh;
-  }
-  .tright {
-    height: 25vh;
-    margin: 20vh 0vh 5vh 0vh;
+  .title-divider {
     background-color: #804949;
-  }
-  .bleft {
-    height: 25vh;
-    margin: 5vh 0vh 20vh 0vh;
-    background-color: #804949;
-  }
-  .bright {
-    height: 25vh;
-    margin: 5vh 0vh 20vh 0vh;
-  }
-  .top-row {
-    height: 50%;
-  }
-  .m4 {
-    height: 100%;
-  }
-  .m9 h2 {
-    height: 10vh;
-    padding: 0%;
-    text-align: center;
-  }
-  .even-header {
-    color: #804949
-  }
-  .first {
-    margin-top: 22.5vh;
+    height: 2px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 10px;
   }
 </style>

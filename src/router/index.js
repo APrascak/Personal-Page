@@ -4,6 +4,7 @@ import Home from '@/components/Home'
 import About from '@/components/About'
 import Projects from '@/components/Projects'
 import Education from '@/components/Education'
+import Contact from '@/components/Contact'
 
 Vue.use(Router)
 
@@ -28,6 +29,11 @@ export default new Router({
       path: '/Education',
       name: 'Education',
       component: Education
+    },
+    {
+      path: '/Contact',
+      name: 'Contact',
+      component: Contact
     }
   ]
 })
