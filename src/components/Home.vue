@@ -11,8 +11,8 @@
           <li><router-link class="white-text" :to="{ name: 'About'}">Contact Me</router-link></li>
         </ul>
       </div>
-      <div class="col m9 l9">
-        <div class="row top-row">
+      <div class="col m9 l9 center">
+        <!-- <div class="row top-row">
           <div class="col m4 l4 offset-m1 offset-l1">
             <div class="card-panel black tleft z-depth-2 valign-wrapper center">
               <h4 class="white-text right">About Me</h4>
@@ -35,8 +35,13 @@
               <h4 class="white-text">Contact Me</h4>
             </div>
           </div>
+        </div> -->
+        <div class="">
+          <h2 class="black-text first"><router-link class="black-text first" :to="{ name: 'About' }">About Me</router-link></h2>
+          <h2 class="even-header"><router-link class="even-header" :to="{ name: 'Projects' }">Personal Projects</router-link></h2>
+          <h2 class="black-text"><router-link class="black-text" :to="{ name: 'Education' }">Education</router-link></h2>
+          <h2 class="even-header"><router-link class="even-header" :to="{ name: 'About' }">Contact Me</router-link></h2>
         </div>
-
       </div>
     </div>
   </div>
@@ -78,6 +83,7 @@
   }
   .m9 {
     height: 100vh;
+    text-align: center;
   }
   .tleft {
     height: 25vh;
@@ -103,8 +109,15 @@
   .m4 {
     height: 100%;
   }
-  .card-panel h4 {
+  .m9 h2 {
+    height: 10vh;
     padding: 0%;
     text-align: center;
+  }
+  .even-header {
+    color: #804949
+  }
+  .first {
+    margin-top: 22.5vh;
   }
 </style>
