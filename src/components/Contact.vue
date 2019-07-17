@@ -8,7 +8,7 @@
           <li><router-link class="white-text" :to="{ name: 'About' }">About</router-link></li>
           <li><router-link class="white-text" :to="{ name: 'Projects' }">Personal Projects</router-link></li>
           <li><router-link class="white-text" :to="{ name: 'Education'}">Education</router-link></li>
-          <li><router-link class="white-text" :to="{ name: 'Contact'}">Contact Me</router-link></li>
+          <li><router-link class="black-text" :to="{ name: 'Contact'}">Contact Me</router-link></li>
         </ul>
         <div class="nav-icons center">
           <a href="https://www.linkedin.com/in/aprascak/"><i class="fab fa-linkedin-in the-icons" style="font-size:24px"></i></a>

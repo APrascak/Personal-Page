@@ -6,7 +6,7 @@
         <div class="divider nav-divider"></div>
         <ul class="white-text">
           <li><router-link class="white-text" :to="{ name: 'About' }">About</router-link></li>
-          <li><router-link class="white-text" :to="{ name: 'Projects' }">Personal Projects</router-link></li>
+          <li><router-link class="black-text" :to="{ name: 'Projects' }">Personal Projects</router-link></li>
           <li><router-link class="white-text" :to="{ name: 'Education'}">Education</router-link></li>
           <li><router-link class="white-text" :to="{ name: 'Contact'}">Contact Me</router-link></li>
         </ul>
