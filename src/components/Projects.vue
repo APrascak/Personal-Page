@@ -1,6 +1,6 @@
 <template id="">
   <div class="">
-    <div class="row the-row">
+    <div class="row the-row show-on-medium-and-up hide-on-small-only">
       <div class="col m3 l3 personal-nav z-depth-1">
         <h4><router-link class="white-text" :to="{ name: 'Home' }">Alex Prascak</router-link></h4>
         <div class="divider nav-divider"></div>
@@ -86,6 +86,44 @@
 
       </div>
     </div>
+
+    <!-- MOBILE FRIENDLY LAYOUT -->
+    <div class="row show-on-small hide-on-med-and-up">
+      <div class="row mobile-nav">
+        <h4><a class='dropdown-trigger black-text left' href='#' data-target='dropdown1'><i class="fas fa-bars"></i></a><router-link class="white-text" :to="{ name: 'Home' }">Alex Prascak</router-link></h4>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'About' }">About Me</router-link></a></li>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'Projects' }">Personal Projects</router-link></a></li>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'Education' }">Education</router-link></a></li>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'Contact' }">Contact Me</router-link></a></li>
+        </ul>
+      </div>
+      <div class="bottom-proj">
+        <div class="row">
+          <h3>Projects</h3>
+          <div class="divider proj-divider"></div>
+        </div>
+        <div class="row proj-row">
+          <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
+          <h5 class="">Drafti.io</h5>
+          <div class="divider title-divider black"></div>
+          <p><em>HTML, CSS, VueJS, FireBase</em></p>
+          <!-- <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt=""> -->
+          <!-- <p><em>HTML, CSS, VueJS, FireBase</em></p> -->
+          <div class="divider black"></div>
+          <ul class="">
+            <li>Establishes a Mock Draft Simulator based on user league parameters.
+            The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
+            slight random variability.</li>
+            <li>Dynamically allows users to visualize relationships between variables like ADP (Average Draft Position),
+            ESPN's Pre-Season Rankings, Yearly Finish, and Average Points Per Game. </li>
+            <li>Includes a weekly blog that focuses on providing analysis and predictions of future performance
+            through simple, effective data visualization.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -182,5 +220,43 @@
   }
   .nav-icons {
     margin-top: 4%;
+  }
+
+
+  /* MOBILE STYLING BELOW*/
+  .mobile-nav {
+    height: 15vh;
+    background-color: #804949;
+    margin-bottom: 0px;
+  }
+  .mobile-nav h4 {
+    margin: 0%;
+    padding-top: 5vh;
+  }
+  .mobile-nav .popup {
+    color: #804949;
+  }
+  .mobile-nav i {
+    margin-left: 40%;
+  }
+  .even-mobile {
+    color: #804949;
+  }
+  .the-top {
+    margin-top: 20vh;
+  }
+  .mobile-nav-divider {
+    background-color: black;
+    height: 2px;
+    margin-left: 30%;
+    width: 40%;
+  }
+  .bottom-proj {
+    height: 85vh;
+    overflow: auto;
+  }
+  .bottom-proj .proj-row {
+    margin: 0% 5%;
+    text-align: left;
   }
 </style>

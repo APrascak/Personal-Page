@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="row the-row">
+    <div class="row the-row  show-on-medium-and-up hide-on-small-only">
       <div class="col m3 l3 personal-nav z-depth-1">
         <h4><router-link class="white-text" :to="{ name: 'Home' }">Alex Prascak</router-link></h4>
         <div class="divider nav-divider"></div>
@@ -54,6 +54,51 @@
 
       </div>
     </div>
+
+    <!-- MOBILE FRIENDLY LAYOUT -->
+    <div class="row show-on-small hide-on-med-and-up">
+      <div class="row mobile-nav">
+        <h4><a class='dropdown-trigger black-text left' href='#' data-target='dropdown1'><i class="fas fa-bars"></i></a><router-link class="white-text" :to="{ name: 'Home' }">Alex Prascak</router-link></h4>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'About' }">About</router-link></a></li>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'Projects' }">Personal Projects</router-link></a></li>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'Education' }">Education</router-link></a></li>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'Contact' }">Contact Me</router-link></a></li>
+        </ul>
+
+      </div>
+      <div class="bottom-about">
+        <div class="row">
+          <h3>About</h3>
+          <div class="divider about-divider"></div>
+          <img class="materialboxed z-depth-2" src="../assets/headshot.jpeg" alt="">
+        </div>
+        <div class="row mobile-description">
+          <p>I am an aspiring Software Engineer heading into my fourth year of Computer Science at the University of Florida.</p>
+          <p>Apart from my coursework, I actively participate in various campus organizations like Gator Innovators, Student Government, and Sigma Nu Fraternity.
+            I have held a multitude of leadership positions and remain focused on advancing the operations, campus awareness, and development of these groups.
+          </p>
+          <p>I believe that personal development should be an essential focus point for any young professional.
+          A lot of my free-time is spent learning on courses from these websites:</p>
+          <ul>
+            <li>LinkedIn Learning</li>
+            <li>Udemy</li>
+            <li>YouTube</li>
+          </ul>
+          <p>My professional interests involve Agile Development, Big Data, Web Development, Cloud Computing, and Statistics.
+          To help better develop my skills I focus on learning and working with these languages:</p>
+          <ul>
+            <li>Java</li>
+            <li>Python</li>
+            <li>R</li>
+            <li>VueJS</li>
+          </ul>
+          <p>I am actively looking for internships, co-ops, and experiences that pertain to software engineering.
+          If you feel that I could contribute to your business, feel free to look at more of my work or reach out to me.</p>
+        </div>
+      </div>
+    </div>
+
   </div>
 </template>
 
@@ -140,5 +185,53 @@ export default {
     margin-top: 4%;
   }
 
+  /* MOBILE STYLING BELOW*/
+  .mobile-nav {
+    height: 15vh;
+    background-color: #804949;
+    margin-bottom: 0px;
+  }
+  .mobile-nav h4 {
+    margin: 0%;
+    padding-top: 5vh;
+  }
+  .mobile-nav .popup {
+    color: #804949;
+  }
+  .mobile-nav i {
+    margin-left: 40%;
+  }
+  .even-mobile {
+    color: #804949;
+  }
+  .the-top {
+    margin-top: 20vh;
+  }
+  .mobile-nav-divider {
+    background-color: black;
+    height: 2px;
+    margin-left: 30%;
+    width: 40%;
+  }
+  .mobile-description {
+    margin: 5% 5%;
+  }
+  .bottom-about {
+    height: 85vh;
+    overflow: auto;
+    margin: 0px;
+  }
+  .bottom-about li {
+    padding-top: 0%;
+    text-align: center;
+    font-size: 13px;
+  }
+  .bottom-about ul {
+    padding-top: 1%;
+  }
+  .bottom-about i {
+    padding: 5% 2%;
+    color: black;
+  }
 
 </style>

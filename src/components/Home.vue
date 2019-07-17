@@ -40,7 +40,7 @@
 
       </div>
       <div class="row">
-        <h3 class="the-top"><router-link class="black-text the-top" :to="{ name: 'About' }">About Me</router-link></h3>
+        <h3 class="the-top"><router-link class="black-text the-top" :to="{ name: 'About' }">About </router-link></h3>
         <h3><router-link class="even-mobile" :to="{ name: 'Projects' }">Personal Projects</router-link></h3>
         <h3><router-link class="black-text" :to="{ name: 'Education' }">Educations</router-link></h3>
         <h3><router-link class="even-mobile" :to="{ name: 'Contact' }">Contact Me</router-link></h3>
