@@ -10,6 +10,12 @@
           <li><router-link class="white-text" :to="{ name: 'Education'}">Education</router-link></li>
           <li><router-link class="white-text" :to="{ name: 'Contact'}">Contact Me</router-link></li>
         </ul>
+        <div class="nav-icons center">
+          <a href="https://www.linkedin.com/in/aprascak/"><i class="fab fa-linkedin-in the-icons" style="font-size:24px"></i></a>
+          <a href="https://github.com/APrascak"><i class="fab fa-github the-icons" style="font-size:24px"></i></a>
+          <a href="https://twitter.com/AlexPrascak"><i class="fab fa-twitter the-icons" style="font-size:24px"></i></a>
+        </div>
+
       </div>
       <div class="col m9 l9">
         <h3>Contact Me:</h3>
@@ -17,7 +23,7 @@
         <p>Email: aprascak@ufl.edu</p>
         <p>Phone: (219) 575-8105</p>
         <p>Connect with me on Linkedin</p>
-        <a href="https://github.com/APrascak"><i class="fab fa-twitter the-icons" style="font-size:24px"></i></a>
+        <a href="https://twitter.com/AlexPrascak"><i class="fab fa-twitter the-icons" style="font-size:24px"></i></a>
       </div>
     </div>
   </div>
@@ -68,4 +74,12 @@
     margin-left: 10%;
     margin-bottom: 10px;
   }
+  .the-icons {
+    color: white;
+    margin-left: 2%;
+  }
+  .nav-icons {
+    margin-top: 4%;
+  }
+
 </style>
