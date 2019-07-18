@@ -217,8 +217,6 @@ export default {
     margin: 5% 5%;
   }
   .bottom-about {
-    height: 85vh;
-    overflow: auto;
     margin: 0px;
   }
   .bottom-about li {

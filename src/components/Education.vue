@@ -211,8 +211,6 @@
     padding: 0% 5%;
   }
   .education-mobile {
-    height: 85vh;
-    overflow: auto;
     margin: 0px;
   }
   #mobile-degree {

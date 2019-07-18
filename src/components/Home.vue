@@ -152,7 +152,7 @@
     color: #804949;
   }
   .the-top {
-    margin-top: 20vh;
+    margin-top: 17.5vh;
   }
   .mobile-nav-divider {
     background-color: black;

@@ -131,7 +131,6 @@
           <div class="divider title-divider black"></div>
           <p class="languages"><em>MongoDB, Express, AngularJS, Node.js</em></p>
           <img class="materialboxed z-depth-1" src="../assets/Scrumble.png" alt="">
-          <!-- <a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a> -->
           <ul class="">
             <li>Worked in group of 5 to develop professional mentor/mentee matching site for a software engineer
             at Ultimate Software.</li>
@@ -292,8 +291,7 @@
     width: 40%;
   }
   .bottom-proj {
-    height: 85vh;
-    overflow: auto;
+    
   }
   .bottom-proj .proj-row {
     margin: 0% 5%;
