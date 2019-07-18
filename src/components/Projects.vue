@@ -126,19 +126,18 @@
 
         <!-- Section for second project. -->
         <div class="row proj-row">
-          <h5 class="">Drafti.io<span class="right"><a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
+          <h5 class="">Scrumble<span class="right"><a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
           <div class="divider title-divider black"></div>
-          <p class="languages"><em>HTML, CSS, VueJS, FireBase</em></p>
-          <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
+          <p class="languages"><em>MongoDB, Express, AngularJS, Node.js</em></p>
+          <img class="materialboxed z-depth-1" src="../assets/Scrumble.png" alt="">
           <!-- <a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a> -->
           <ul class="">
-            <li>Establishes a Mock Draft Simulator based on user league parameters.
-            The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
-            slight random variability.</li>
-            <li>Dynamically allows users to visualize relationships between variables like ADP (Average Draft Position),
-            ESPN's Pre-Season Rankings, Yearly Finish, and Average Points Per Game. </li>
-            <li>Includes a weekly blog that focuses on providing analysis and predictions of future performance
-            through simple, effective data visualization.</li>
+            <li>Worked in group of 5 to develop professional mentor/mentee matching site for a software engineer
+            at Ultimate Software.</li>
+            <li>Developed backend with Express & Node.js to create, store, and authenticate user information
+            with Google OAuth.</li>
+            <li>Established algorithm for mentor-mentee pairing.</li>
+            <li>Assisted in front-end UI development with AngularJS.</li>
           </ul>
         </div>
 
