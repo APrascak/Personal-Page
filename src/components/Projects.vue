@@ -108,7 +108,7 @@
         <div class="row proj-row">
           <h5 class="">Drafti.io<span class="right"><a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
           <div class="divider title-divider black"></div>
-          <p class="languages"><em>HTML, CSS, VueJS, FireBase</em></p>
+          <p class="languages"><em>VueJS, FireBase</em></p>
           <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
           <!-- <a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a> -->
           <ul class="">

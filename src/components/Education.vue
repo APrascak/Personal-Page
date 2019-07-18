@@ -1,6 +1,6 @@
 <template id="">
   <div class="">
-    <div class="row the-row">
+    <div class="row the-row show-on-medium-and-up hide-on-small-only">
       <div class="col m3 l3 personal-nav z-depth-1">
         <h4><router-link class="white-text" :to="{ name: 'Home' }">Alex Prascak</router-link></h4>
         <div class="divider nav-divider"></div>
@@ -56,6 +56,26 @@
           </div>
 
         </div>
+      </div>
+    </div>
+
+    <!-- MOBILE FRIENDLY LAYOUT -->
+    <div class="row show-on-small hide-on-med-and-up">
+      <div class="row mobile-nav">
+        <h4><a class='dropdown-trigger black-text left' href='#' data-target='dropdown1'><i class="fas fa-bars"></i></a><router-link class="white-text" :to="{ name: 'Home' }">Alex Prascak</router-link></h4>
+        <ul id='dropdown1' class='dropdown-content'>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'About' }">About Me</router-link></a></li>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'Projects' }">Personal Projects</router-link></a></li>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'Education' }">Education</router-link></a></li>
+          <li><a href="#"><router-link class="popup" :to="{ name: 'Contact' }">Contact Me</router-link></a></li>
+        </ul>
+
+      </div>
+      <div class="row">
+        <h3 class="the-top"><router-link class="black-text the-top" :to="{ name: 'About' }">About </router-link></h3>
+        <h3><router-link class="even-mobile" :to="{ name: 'Projects' }">Personal Projects</router-link></h3>
+        <h3><router-link class="black-text" :to="{ name: 'Education' }">Educations</router-link></h3>
+        <h3><router-link class="even-mobile" :to="{ name: 'Contact' }">Contact Me</router-link></h3>
       </div>
     </div>
   </div>
@@ -123,5 +143,34 @@
   }
   .nav-icons {
     margin-top: 4%;
+  }
+
+
+  /* MOBILE STYLING BELOW*/
+  .mobile-nav {
+    height: 15vh;
+    background-color: #804949;
+  }
+  .mobile-nav h4 {
+    margin: 0%;
+    padding-top: 5vh;
+  }
+  .mobile-nav .popup {
+    color: #804949;
+  }
+  .mobile-nav i {
+    margin-left: 40%;
+  }
+  .even-mobile {
+    color: #804949;
+  }
+  .the-top {
+    margin-top: 20vh;
+  }
+  .mobile-nav-divider {
+    background-color: black;
+    height: 2px;
+    margin-left: 30%;
+    width: 40%;
   }
 </style>
