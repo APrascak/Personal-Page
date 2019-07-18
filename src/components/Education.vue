@@ -71,11 +71,41 @@
         </ul>
 
       </div>
-      <div class="row">
-        <h3 class="the-top"><router-link class="black-text the-top" :to="{ name: 'About' }">About </router-link></h3>
-        <h3><router-link class="even-mobile" :to="{ name: 'Projects' }">Personal Projects</router-link></h3>
-        <h3><router-link class="black-text" :to="{ name: 'Education' }">Educations</router-link></h3>
-        <h3><router-link class="even-mobile" :to="{ name: 'Contact' }">Contact Me</router-link></h3>
+      <div class="education-mobile">
+        <h3>Education</h3>
+        <div class="divider header-divider"></div>
+        <img class="materialboxed" src="../assets/ufenglogo.png" alt="">
+        <div class="education-info">
+          <ul id="mobile-degree">
+            <li>Degree: B.S. Computer Science</li>
+            <li>Minor: Statistics</li>
+            <li>GPA: 3.38</li>
+            <li>Expected Graduation: December 2020</li>
+          </ul>
+          <span>Leadership:</span>
+          <ul id="mobile-lead">
+            <li>Sigma Nu Fraternity, <em>L.E.A.D. Chairman</em></li>
+            <li>Gator Innovators, <em>Director of Web Development</em></li>
+            <li>Student Government, <em>Undersecretary of Technology</em></li>
+          </ul>
+          <span class="center">Coursework</span>
+          <ul id="mobile-classes">
+            <li>Applications of Discrete Structures</li>
+            <li>Computational Linear Algebra</li>
+            <li>Computational Numerical Analysis</li>
+            <li>Data Structures & Algorithms</li>
+            <li>Digital Logic & Computer Systems</li>
+            <li>Engineering Statistics</li>
+            <li>Information & Database Systems 1</li>
+            <li>Intro to Computer Organization</li>
+            <li>Intro to Probability</li>
+            <li>Intro to Software Engineering</li>
+            <li>Professional Communication for Engineers</li>
+            <li>Programming Fundamentals 1 (Java)</li>
+            <li>Programming Fundamentals 2 (C++)</li>
+            <li>Regression Analysis</li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
@@ -88,6 +118,9 @@
       return {
 
       }
+    },
+    mounted() {
+      M.AutoInit()
     }
   }
 </script>
@@ -150,6 +183,7 @@
   .mobile-nav {
     height: 15vh;
     background-color: #804949;
+    margin-bottom: 0px;
   }
   .mobile-nav h4 {
     margin: 0%;
@@ -172,5 +206,34 @@
     height: 2px;
     margin-left: 30%;
     width: 40%;
+  }
+  .education-info {
+    padding: 0% 5%;
+  }
+  .education-mobile {
+    height: 85vh;
+    overflow: auto;
+    margin: 0px;
+  }
+  #mobile-degree {
+    margin-top: 0px;
+  }
+  #mobile-degree li {
+    padding: 0;
+    text-align: left
+  }
+  #mobile-lead {
+    padding-top: 0px;
+  }
+  #mobile-lead li {
+    padding: 0;
+    text-align: left;
+  }
+  #mobile-classes {
+    margin-top: 0px;
+  }
+  #mobile-classes li {
+    padding: 0;
+    text-align: left;
   }
 </style>
