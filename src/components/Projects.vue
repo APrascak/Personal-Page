@@ -99,18 +99,58 @@
         </ul>
       </div>
       <div class="bottom-proj">
-        <div class="row">
+
+        <!-- Section for first project. -->
+        <div class="row" id="top-proj">
           <h3>Projects</h3>
           <div class="divider proj-divider"></div>
         </div>
         <div class="row proj-row">
-          <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
-          <h5 class="">Drafti.io</h5>
+          <h5 class="">Drafti.io<span class="right"><a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
           <div class="divider title-divider black"></div>
-          <p><em>HTML, CSS, VueJS, FireBase</em></p>
-          <!-- <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt=""> -->
-          <!-- <p><em>HTML, CSS, VueJS, FireBase</em></p> -->
-          <div class="divider black"></div>
+          <p class="languages"><em>HTML, CSS, VueJS, FireBase</em></p>
+          <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
+          <!-- <a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a> -->
+          <ul class="">
+            <li>Establishes a Mock Draft Simulator based on user league parameters.
+            The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
+            slight random variability.</li>
+            <li>Dynamically allows users to visualize relationships between variables like ADP (Average Draft Position),
+            ESPN's Pre-Season Rankings, Yearly Finish, and Average Points Per Game. </li>
+            <li>Includes a weekly blog that focuses on providing analysis and predictions of future performance
+            through simple, effective data visualization.</li>
+          </ul>
+        </div>
+
+        <div class="divider mobile-desc-divider"></div>
+
+        <!-- Section for second project. -->
+        <div class="row proj-row">
+          <h5 class="">Drafti.io<span class="right"><a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
+          <div class="divider title-divider black"></div>
+          <p class="languages"><em>HTML, CSS, VueJS, FireBase</em></p>
+          <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
+          <!-- <a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a> -->
+          <ul class="">
+            <li>Establishes a Mock Draft Simulator based on user league parameters.
+            The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
+            slight random variability.</li>
+            <li>Dynamically allows users to visualize relationships between variables like ADP (Average Draft Position),
+            ESPN's Pre-Season Rankings, Yearly Finish, and Average Points Per Game. </li>
+            <li>Includes a weekly blog that focuses on providing analysis and predictions of future performance
+            through simple, effective data visualization.</li>
+          </ul>
+        </div>
+
+        <div class="divider mobile-desc-divider"></div>
+
+        <!-- Section for third project. -->
+        <div class="row proj-row">
+          <h5 class="">Drafti.io<span class="right"><a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
+          <div class="divider title-divider black"></div>
+          <p class="languages"><em>HTML, CSS, VueJS, FireBase</em></p>
+          <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
+          <!-- <a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a> -->
           <ul class="">
             <li>Establishes a Mock Draft Simulator based on user league parameters.
             The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
@@ -238,6 +278,7 @@
   }
   .mobile-nav i {
     margin-left: 40%;
+    text-align: center;
   }
   .even-mobile {
     color: #804949;
@@ -259,4 +300,22 @@
     margin: 0% 5%;
     text-align: left;
   }
+  .gitlink {
+    margin-top: 5%;
+    margin-left: 47.5%;
+  }
+  #top-proj {
+    margin-bottom: 0px;
+  }
+  .bottom-proj h5 {
+    margin-top: 2%;
+  }
+  .mobile-desc-divider {
+    margin: 5% 0%;
+    background-color: #804949;
+    height: 2px;
+    width: 80%;
+    margin-left: 10%;
+  }
+
 </style>
