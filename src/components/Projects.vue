@@ -23,8 +23,8 @@
           <div class="row proj-row">
             <div class="col m4 l4">
               <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
-              <p><em>HTML, CSS, VueJS, FireBase</em></p>
-              <a href="https://github.com/APrascak"><i class="fab fa-github the-icons" style="font-size:24px"></i></a>
+              <p><em>VueJS, FireBase</em></p>
+              <a href="https://github.com/APrascak/Drafti"><i class="fab fa-github the-icons" style="font-size:24px"></i></a>
             </div>
             <div class="col m8 l8">
               <h5 class="">Drafti.io</h5>
@@ -34,7 +34,7 @@
                 The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
                 slight random variability.</li>
                 <li>Dynamically allows users to visualize relationships between variables like ADP (Average Draft Position),
-                ESPN's Pre-Season Rankings, Yearly Finish, and Average Points Per Game. </li>
+                ESPN's Pre-Season Rankings, Yearly Finish, and Average Poidnts Per Game. </li>
                 <li>Includes a weekly blog that focuses on providing analysis and predictions of future performance
                 through simple, effective data visualization.</li>
               </ul>
@@ -44,25 +44,26 @@
           </div>
           <div class="row proj-row">
             <div class="col m4 l4">
-              <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
-              <p><em>HTML, CSS, VueJS, FireBase</em></p>
-              <a href="https://github.com/APrascak"><i class="fab fa-github the-icons" style="font-size:24px"></i></a>
+              <img class="materialboxed z-depth-1" src="../assets/Scrumble.png" alt="">
+              <p><em>MongoDB, Express, AngularJS, Node.js</em></p>
+              <a href="https://github.com/patriels/Testing_Repo"><i class="fab fa-github the-icons" style="font-size:24px"></i></a>
             </div>
             <div class="col m8 l8">
-              <h5 class="">Drafti.io</h5>
+              <h5 class="">Scrumble</h5>
               <div class="divider title-divider black"></div>
               <ul class="">
-                <li>Establishes a Mock Draft Simulator based on user league parameters.
-                The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
-                slight random variability.</li>
-                <li>Dynamically allows users to visualize relationships between variables like ADP (Average Draft Position),
-                ESPN's Pre-Season Rankings, Yearly Finish, and Average Points Per Game. </li>
-                <li>Includes a weekly blog that focuses on providing analysis and predictions of future performance
-                through simple, effective data visualization.</li>
+                <li>Worked in group of 5 to develop professional mentor/mentee matching site for a software engineer
+                at Ultimate Software.</li>
+                <li>Developed backend with Express & Node.js to create, store, and authenticate user information
+                with Google OAuth.</li>
+                <li>Established algorithm for mentor-mentee pairing.</li>
+                <li>Assisted in front-end UI development with AngularJS.</li>
               </ul>
             </div>
           </div>
-          <div class="row proj-row">
+
+          <!-- Template to add 3rd project. -->
+          <!-- <div class="row proj-row">
             <div class="col m4 l4">
               <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
               <p><em>HTML, CSS, VueJS, FireBase</em></p>
@@ -81,7 +82,7 @@
                 through simple, effective data visualization.</li>
               </ul>
             </div>
-          </div>
+          </div> -->
         </div>
 
       </div>
@@ -106,7 +107,7 @@
           <div class="divider proj-divider"></div>
         </div>
         <div class="row proj-row">
-          <h5 class="">Drafti.io<span class="right"><a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
+          <h5 class="">Drafti.io<span class="right"><a href="https://github.com/APrascak/Drafti"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
           <div class="divider title-divider black"></div>
           <p class="languages"><em>VueJS, FireBase</em></p>
           <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
@@ -126,7 +127,7 @@
 
         <!-- Section for second project. -->
         <div class="row proj-row">
-          <h5 class="">Scrumble<span class="right"><a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
+          <h5 class="">Scrumble<span class="right"><a href="https://github.com/patriels/Testing_Repo"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
           <div class="divider title-divider black"></div>
           <p class="languages"><em>MongoDB, Express, AngularJS, Node.js</em></p>
           <img class="materialboxed z-depth-1" src="../assets/Scrumble.png" alt="">
@@ -141,15 +142,14 @@
           </ul>
         </div>
 
-        <div class="divider mobile-desc-divider"></div>
+        <!-- <div class="divider mobile-desc-divider"></div> -->
 
-        <!-- Section for third project. -->
-        <div class="row proj-row">
+        <!-- TEMPLATE TO ADD 3RD PROJECT -->
+        <!-- <div class="row proj-row">
           <h5 class="">Drafti.io<span class="right"><a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a></span></h5>
           <div class="divider title-divider black"></div>
           <p class="languages"><em>HTML, CSS, VueJS, FireBase</em></p>
           <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
-          <!-- <a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a> -->
           <ul class="">
             <li>Establishes a Mock Draft Simulator based on user league parameters.
             The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
@@ -159,7 +159,7 @@
             <li>Includes a weekly blog that focuses on providing analysis and predictions of future performance
             through simple, effective data visualization.</li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </div>
 
