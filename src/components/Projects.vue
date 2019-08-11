@@ -22,7 +22,7 @@
         <div class="projects">
           <div class="row proj-row">
             <div class="col m4 l4">
-              <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
+              <img class="materialboxed z-depth-1" src="../assets/drafti2.png" alt="">
               <p><em>VueJS, FireBase</em></p>
               <a href="https://github.com/APrascak/Drafti"><i class="fab fa-github the-icons" style="font-size:24px"></i></a>
             </div>
