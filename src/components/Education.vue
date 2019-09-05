@@ -95,19 +95,23 @@
           <span class="center">Coursework</span>
           <ul id="mobile-classes">
             <li>Applications of Discrete Structures</li>
-            <li>Computational Linear Algebra</li>
-            <li>Computational Numerical Analysis</li>
-            <li>Data Structures & Algorithms</li>
-            <li>Digital Logic & Computer Systems</li>
-            <li>Engineering Statistics</li>
-            <li>Information & Database Systems 1</li>
-            <li>Intro to Computer Organization</li>
-            <li>Intro to Probability</li>
-            <li>Intro to Software Engineering</li>
-            <li>Professional Communication for Engineers</li>
-            <li>Programming Fundamentals 1 (Java)</li>
-            <li>Programming Fundamentals 2 (C++)</li>
-            <li>Regression Analysis</li>
+              <li>Computational Linear Algebra</li>
+              <li>Computational Numerical Analysis</li>
+              <li>Data Structures & Algorithms</li>
+              <li>Design of Experiments</li>
+              <li>Digital Logic & Computer Systems</li>
+              <li>Engineering Statistics</li>
+              <li>Information & Database Systems 1</li>
+              <li>Intro to Computer Organization</li>
+              <li>Intro to Data Science</li>
+              <li>Intro to Probability</li>
+              <li>Intro to Software Engineering</li>
+              <li>Operating Systems</li>
+              <li>Professional Communication for Engineers</li>
+              <li>Programming Fundamentals 1 (Java)</li>
+              <li>Programming Fundamentals 2 (C++)</li>
+              <li>Regression Analysis</li>
+              <li>Software Testing for Continuous Development</li>
           </ul>
         </div>
       </div>
