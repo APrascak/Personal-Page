@@ -22,7 +22,7 @@
         <div class="divider title-divider"></div>
         <p>Email: aprascak@ufl.edu</p>
         <p>Phone: (219) 575-8105</p>
-        <div class="nav-icons center">
+        <div id="contact-icons" class="nav-icons center">
           <a href="https://www.linkedin.com/in/aprascak/"><i id="linkedin1" class="fab fa-linkedin-in the-icons" style="font-size:24px"></i></a>
           <a href="https://github.com/APrascak"><i id="github1" class="fab fa-github the-icons" style="font-size:24px"></i></a>
           <a href="https://twitter.com/AlexPrascak"><i id="twitter1" class="fab fa-twitter the-icons" style="font-size:24px"></i></a>
@@ -108,7 +108,8 @@
   }
   .the-icons {
     color: white;
-    margin-left: 2%;
+    margin-left: 1%;
+    margin-right: 1%;
   }
   .nav-icons {
     margin-top: 4%;
@@ -148,5 +149,7 @@
   #linkedin1, #github1, #twitter1 {
     color: black;
   }
-
+  #contact-icons {
+    margin-top: 1.5%;
+  }
 </style>

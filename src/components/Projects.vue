@@ -30,13 +30,14 @@
               <h5 class="">Drafti.io</h5>
               <div class="divider title-divider black"></div>
               <ul class="">
-                <li>Establishes a Mock Draft Simulator based on user league parameters.
+                <li>Establishes a Mock Draft Simulator to emulate a Fantasy Football Draft.
                 The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
                 slight random variability.</li>
-                <li>Dynamically allows users to visualize relationships between variables like ADP (Average Draft Position),
-                ESPN's Pre-Season Rankings, Yearly Finish, and Average Poidnts Per Game. </li>
-                <li>Includes a weekly blog that focuses on providing analysis and predictions of future performance
-                through simple, effective data visualization.</li>
+                <li>Includes a variety of player & drafting statistics on various graphs and charts that 
+                are displayed by utilizing the ApexCharts library.</li>
+                <li>Implements a Firebase backend to store user profile information.
+                  Allows users to store and update mock draft settings and parameters.
+                </li>
               </ul>
             </div>
           </div>
@@ -52,12 +53,10 @@
               <h5 class="">Scrumble</h5>
               <div class="divider title-divider black"></div>
               <ul class="">
-                <li>Worked in group of 5 to develop professional mentor/mentee matching site for a software engineer
-                at Ultimate Software.</li>
-                <li>Developed backend with Express & Node.js to create, store, and authenticate user information
-                with Google OAuth.</li>
-                <li>Established algorithm for mentor-mentee pairing.</li>
-                <li>Assisted in front-end UI development with AngularJS.</li>
+                <li>Mentor-mentee matching website that focuses on pairing users based on basic demographics, interests, and availability.</li>
+                <li>Developed with a team of 5 other UF students for a software engineer at Ultimate Software as part of an Introductory Software Engineering course.</li>
+                <li>Focused on back-end development with Node.js & MongoDB: user registration and login with Google OAuth, matching algorithm development, and database design.</li>
+                <li>Mentored front-end development team in AngularJS & HTML/CSS as needed.</li>
               </ul>
             </div>
           </div>
@@ -113,13 +112,14 @@
           <img class="materialboxed z-depth-1" src="../assets/drafti.png" alt="">
           <!-- <a href="https://github.com/APrascak"><i class="fab fa-github the-icons black-text center gitlink" style="font-size:24px"></i></a> -->
           <ul class="">
-            <li>Establishes a Mock Draft Simulator based on user league parameters.
+            <li>Establishes a Mock Draft Simulator to emulate a Fantasy Football Draft.
             The computer 'AI' selects players with an algorithm designed to account for general drafting opinions and
             slight random variability.</li>
-            <li>Dynamically allows users to visualize relationships between variables like ADP (Average Draft Position),
-            ESPN's Pre-Season Rankings, Yearly Finish, and Average Points Per Game. </li>
-            <li>Includes a weekly blog that focuses on providing analysis and predictions of future performance
-            through simple, effective data visualization.</li>
+            <li>Includes a variety of player & drafting statistics on various graphs and charts that 
+            are displayed by utilizing the ApexCharts library.</li>
+            <li>Implements a Firebase backend to store user profile information.
+              Allows users to store and update mock draft settings and parameters.
+            </li>
           </ul>
         </div>
 
@@ -132,12 +132,10 @@
           <p class="languages"><em>MongoDB, Express, AngularJS, Node.js</em></p>
           <img class="materialboxed z-depth-1" src="../assets/Scrumble.png" alt="">
           <ul class="">
-            <li>Worked in group of 5 to develop professional mentor/mentee matching site for a software engineer
-            at Ultimate Software.</li>
-            <li>Developed backend with Express & Node.js to create, store, and authenticate user information
-            with Google OAuth.</li>
-            <li>Established algorithm for mentor-mentee pairing.</li>
-            <li>Assisted in front-end UI development with AngularJS.</li>
+            <li>Mentor-mentee matching website that focuses on pairing users based on basic demographics, interests, and availability.</li>
+            <li>Developed with a team of 5 other UF students for a software engineer at Ultimate Software as part of an Introductory Software Engineering course.</li>
+            <li>Focused on back-end development with Node.js & MongoDB: user registration and login with Google OAuth, matching algorithm development, and database design.</li>
+            <li>Mentored front-end development team in AngularJS & HTML/CSS as needed.</li>
           </ul>
         </div>
 
